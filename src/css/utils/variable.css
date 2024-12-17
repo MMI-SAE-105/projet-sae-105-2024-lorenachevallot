@@ -1,0 +1,26 @@
+:root {
+    /* couleurs */
+    --couleurs-blanc: #efefef;
+    --couleurs-blanc-intense: #ffffff;
+    --couleurs-bleu: #482ce5;
+    --couleurs-gris: #9d9d9d;
+    --couleurs-gris-clair: #d9d9d9;
+    --couleurs-noir: #1e1e1e;
+    --couleurs-noir-bleuté: #0c0815;
+    --couleurs-violet: #c315d0;
+    --couleurs-violet-clair: #b57bff;
+    
+    /* string */
+    --couleurs-typo-typo1: Zen Dots;
+    --couleurs-typo-typo2: poppins;
+    --couleurs-typo-typo3: Krona One;
+    --couleurs-typo-typo4: Rajdhani;
+
+/* Space */
+    --space-1x: 40px;
+    --space-2x: 80px;
+    --space-3x: 120px;
+    --space-4x: 160px;
+    --space-5x: 200px;
+    --space-6x: 300px;
+}
