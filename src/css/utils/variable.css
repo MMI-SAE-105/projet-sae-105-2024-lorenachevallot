@@ -17,12 +17,16 @@
     --typos-typo4: "Rajdhani";
 
     /* Space */
-    --space-1x: 40px;
-    --space-2x: 80px;
-    --space-3x: 120px;
-    --space-4x: 160px;
-    --space-5x: 200px;
-    --space-6x: 300px;
+
+    --space-1x: 10px;
+    --space-2x: 20px;
+    --space-3x: 30px;
+    --space-4x: 40px;
+    --space-5x: 80px;
+    --space-6x: 120px;
+    --space-7x: 160px;
+    --space-8x: 200px;
+    --space-9x: 300px;
     /* taille de typos */
     --sizes-size1: 0.625rem;
     /* 10px */

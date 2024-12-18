@@ -1,6 +1,7 @@
 .header__buttons {
     display: flex;
     align-items: center;
+    gap: var(--space-2x);
 }
 
 .header__switcher {
@@ -31,23 +32,4 @@
 .switcher__sphere--active {
     left: 75%;
     background: url("/assets/img/avif/drapeau_anglais.avif");
-}
-
-.header__menu-btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 24px;
-    height: 18px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 1001;
-}
-
-.menu-btn__bar {
-    width: 100%;
-    height: 3px;
-    background-color: #ffffff;
-    border-radius: 2px;
 }
