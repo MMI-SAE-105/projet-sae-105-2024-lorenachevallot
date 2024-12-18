@@ -1,1 +1,10 @@
+/* Utils */
+@import "utils/variable.css";
+
+/* Base */
+@import "base/main.css";
+
+/* Layout */
 @import "layout/header.css";
+@import "layout/hero.css";
+@import "layout/footer.css";
