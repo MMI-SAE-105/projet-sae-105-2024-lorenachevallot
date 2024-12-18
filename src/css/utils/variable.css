@@ -9,18 +9,42 @@
     --couleurs-noir-bleuté: #0c0815;
     --couleurs-violet: #c315d0;
     --couleurs-violet-clair: #b57bff;
-    
-    /* string */
-    --couleurs-typo-typo1: Zen Dots;
-    --couleurs-typo-typo2: poppins;
-    --couleurs-typo-typo3: Krona One;
-    --couleurs-typo-typo4: Rajdhani;
 
-/* Space */
+    /* string */
+    --typos-typo1: "Zen Dots";
+    --typos-typo2: "poppins";
+    --typos-typo3: "Krona One";
+    --typos-typo4: "Rajdhani";
+
+    /* Space */
     --space-1x: 40px;
     --space-2x: 80px;
     --space-3x: 120px;
     --space-4x: 160px;
     --space-5x: 200px;
     --space-6x: 300px;
+    /* taille de typos */
+    --sizes-size1: 0.625rem;
+    /* 10px */
+    --sizes-size2: 0.75rem;
+    /* 12px */
+    --sizes-size3: 0.875rem;
+    /* 14px */
+    --sizes-size4: 1rem;
+    /* 16px */
+    --sizes-size5: 1.125rem;
+    /* 18px */
+    --sizes-size6: 1.25rem;
+    /* 20px */
+    --sizes-size7: 1.5rem;
+    /* 24px */
+    --sizes-size8: 1.875rem;
+    /* 30px */
+    --sizes-size9: 2.25rem;
+    /* 36px */
+
+    /* radius */
+    --radius-1x: 5px;
+    --radius-2x: 18px;
+    --radius-3x: 28px;
 }
