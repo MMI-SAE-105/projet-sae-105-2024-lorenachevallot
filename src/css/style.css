@@ -15,4 +15,7 @@
 
 /*Components*/
 @import "component/button.css";
+@import "component/menu.css";
+@import "component/carroussel.css";
+@import "component/article.css";
 
