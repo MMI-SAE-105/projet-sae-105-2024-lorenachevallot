@@ -38,6 +38,27 @@
     overflow: hidden;
 }
 
+.hero__scroll-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 6;
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    bottom: 15%;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--couleurs-noir);
+    box-shadow: 5px 7px 10px 0px rgba(255, 0, 229, 0.70) inset;
+}
+
+.scroll-btn__icon {
+    width: 23px;
+    height: 14px;
+    border-radius: 50%;
+}
+
 
 
 .hero__title--home {
@@ -74,7 +95,7 @@
 .background__image--piano {
     width: 100%;
     height: auto;
-    z-index: 20;
+    z-index: 5;
     padding: 0;
     position: absolute;
     bottom: 0px;

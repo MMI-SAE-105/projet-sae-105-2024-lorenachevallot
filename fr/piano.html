@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clavex</title>
-    <script src="/src/js/index.js" defer></script>
+    <script src="/src/js/script.js" defer></script>
     <link rel="stylesheet" href="/src/css/style.css" />
 </head>
 
@@ -49,15 +49,18 @@
         </nav>
     </header>
     <div class="hero hero--home">
-        <h1 class="hero__title hero__title--home">Clavex</h1>
-        <h3 class="hero__subtitle hero__subtitle--home">“Redécouvrez l'émotion pure à travers les touches du futur”</h3>
+        <h1 class="hero__title hero__title--home">Le piano</h1>
+        <h3 class="hero__subtitle hero__subtitle--home">une clé pour nos émotions et notre civilisation</h3>
         <div class="hero__background">
             <img src="/assets/img/avif/image_clavex.avif" alt="Image de gens qui sourient" class="background__image">
-
         </div>
+        <img src="/assets/img/avif/piano_header.avif" alt="image de notes de piano" class="background__image--piano">
+    
+        <button class="hero__scroll-btn"><img src="/assets/img/svg/icon de flèche vers le bas_blanc.svg"
+                alt="icon de flèche blanche vers le bas" class="scroll-btn__icon"></button>
     </div>
+
     <main class="main">
-        <!-- Section 1 : Importance du piano -->
         <section class="section">
             <div class="section__introduction">
                 <h2 class="section__title">Le piano : vecteur d'émotions et de création</h2>
@@ -123,7 +126,6 @@
         </section>
 
 
-        <!-- Section 3 : Frise chronologique -->
         <section class="section">
             <div class="section__introduction">
                 <h2 class="section__title">Le piano à travers les âges : évolution et formes multiples</h2>
@@ -259,74 +261,78 @@
         </section>
 
         <!-- Section 4 : Footer -->
-    </main>
-    <footer class="footer">
-        <div class="footer__content">
-            <p class="footer__title">Menu</p>
-            <ul class="footer__list">
-                <li class="footer__item">
-                    <a href="contact.html" class="footer__link">Contact</a>
-                </li>
-                <li class="footer__item">
-                    <a href="a_propos.html" class="footer__link">À propos</a>
-                </li>
-                <li class="footer__item">
-                    <a href="glossaire.html" class="footer__link">Glossaire</a>
-                </li>
-                <li class="footer__item">
-                    <a href="autre.html" class="footer__link">Autres projets</a>
-                </li>
-            </ul>
-        </div>
+        <main class="main"></main>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="/assets/img/svg/logo.svg" alt="Logo Clavex" class="logo__img">
+                    <h3 class="logo__text">“Redécouvrez l'émotion pure à travers les touches du futur”</h3>
+                </div>
+                <ul class="footer__list">
+                    <p class="footer__title">Menu</p>
+                    <li class="footer__item">
+                        <a href="contact.html" class="footer__link">Contact</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="a_propos.html" class="footer__link">À propos</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="glossaire.html" class="footer__link">Glossaire</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="autre.html" class="footer__link">Autres projets</a>
+                    </li>
+                </ul>
+                <div class="footer__social-network">
+                    <p class="footer__title">Réseaux sociaux</p>
+                    <ul class="footer__social-list">
+                        <li class="social-list__item">
+                            <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
+                                <img src="/assets/img/avif/insta-white.avif" alt="logo instagram"
+                                    class="social-link__img" />
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+                                <img src="/assets/img/avif/twitter-white.avif" alt="logo twitter"
+                                    class="social-link__img" />
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
+                                <img src="/assets/img/avif/facebook-white.avif" alt="logo facebook"
+                                    class="social-link__img" />
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a href="https://www.youtube.com/@departementmmi4128" class="menu__social-link">
+                                <img src="/assets/img/avif/ytb-white.avif" alt="logo youtube"
+                                    class="social-link__img" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
-        <div class="footer__content">
-            <p class="footer__title">Réseaux sociaux</p>
-            <ul class="footer__social-list">
-                <li class="social-list__item">
-                    <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link">
-                        <img src="/assets/img/svg/element_insta.svg" alt="logo instagram" class="social-link__img" />
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-                        <img src="/assets/img/svg/element_twitter.svg" alt="logo twitter" class="social-link__img" />
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
-                        <img src="/assets/img/svg/element_facebook.svg" alt="logo facebook" class="social-link__img" />
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a href="https://www.youtube.com/@departementmmi4128" class="menu__social-link">
-                        <img src="/assets/img/svg/element_ytb.svg" alt="logo youtube" class="social-link__img" />
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link">
-                        <img src="/assets/img/svg/element_facebook.svg" alt="logo facebook" class="social-link__img" />
-                    </a>
-                </li>
-            </ul>
-        </div>
+                <div class="footer__register">
+                    <p class="footer__title">S'inscire à la newsletter</p>
+                    <label for="footer__input" class="footer__label">Votre email</label>
+                    <div class="footer__newsletter">
+                        <input type="text" class="footer__input" id="footer__input" />
+                        <button class="footer__btn">S'inscrire</button>
+                    </div>
+                </div>
 
-        <div class="footer__content">
-            <p class="footer__title">S'inscire à la newsletter</p>
-            <label for="footer__input" class="footer__label">Votre email</label>
-            <div class="footer__newsletter">
-                <input type="text" class="footer__input" id="footer__input" />
-                <button class="footer__btn">S'inscrire</button>
+
+                <div class="footer__mentions">
+                    <h3 class="footer__text">LORÉNA - CHEVALLOT - MMI 1A2</h3>
+                    <p class="footer__text uppercase">
+                        © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
+                        département MMI de Montbéliard
+                    </p>
+                </div>
+
             </div>
-        </div>
-
-        <div class="footer__content">
-            <h3 class="footer__text">LORÉNA - CHEVALLOT - MMI 1A2</h3>
-            <p class="footer__text uppercase">
-                © projet réalisé en 2024 dans le cadre d’un exercice pédagogique au
-                département MMI de Montbéliard
-            </p>
-        </div>
-    </footer>
+        </footer>
 </body>
 
 </html>
