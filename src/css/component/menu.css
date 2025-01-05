@@ -10,7 +10,6 @@
     cursor: pointer;
     z-index: 1001;
     position: relative;
-
 }
 
 .menu-btn__bar,
@@ -23,6 +22,7 @@
     background-color: #ffffff;
     border-radius: 2px;
     position: absolute;
+    transition: all 0.3s;
 }
 
 .menu-btn__bar::before {
@@ -31,6 +31,20 @@
 
 .menu-btn__bar::after {
     top: 10px;
+}
+
+.menu-btn[aria-expanded="false"] .menu-btn__bar,
+.menu-btn[aria-expanded="false"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="false"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: var(--couleurs-blanc);
+}
+
+.menu-btn[aria-expanded="false"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="false"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+    background: var(--couleurs-blanc);
 }
 
 /* menu */

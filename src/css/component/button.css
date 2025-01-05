@@ -38,18 +38,51 @@
 /* card button*/
 
 .card__button {
-text-transform: uppercase;
-display: flex;
-padding: var(--space-1x) var(--space-4x);
-justify-content: center;
-align-items: center;
-color: var(--couleurs-blanc-intense);
-border-radius: 10px;
-border: none;
-background: linear-gradient(180deg, #482CE5 0%, #C315D0 100%);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-font-family: var(--typos-typo3);
-font-size: var(--sizes-size2);
-font-weight: lighter;
+    text-transform: uppercase;
+    display: flex;
+    padding: var(--space-1x) var(--space-4x);
+    justify-content: center;
+    align-items: center;
+    color: var(--couleurs-blanc-intense);
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg, #482CE5 0%, #C315D0 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--typos-typo3);
+    font-size: var(--sizes-size2);
+    font-weight: lighter;
 
+}
+
+.section__btn-play {
+    font-family: var(--typos-typo3);
+    font-size: var(--sizes-size2);
+    border-radius: 8px;
+    background: linear-gradient(45deg, rgba(72, 44, 229, 0.92) -13.28%, rgba(195, 21, 208, 0.92) 100%);
+    display: flex;
+    padding: 2px 21px;
+    color: var(--couleurs-blanc-intense);
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-1x);
+    max-width: 55dvw;
+}
+
+.logo__play {
+    width: var(--space-4x);
+    height: var(--space-4x);
+}
+
+/* form btn */
+
+.form__btn {
+    display: flex;
+    padding: 10px 37px;
+    align-items: center;
+    gap: 10px;
+    border-radius: var(--radius-1x);
+    text-transform: uppercase;
+    background-color: var(--couleurs-noir);
+    color: var(--couleurs-blanc-intense);
+    align-self: flex-end;
 }
