@@ -60,11 +60,12 @@
         </div>
         <img src="/assets/img/avif/piano_header.avif" alt="image de notes de piano" class="background__image--piano">
 
-        <button class="hero__scroll-btn"><img src="/assets/img/svg/icon de flèche vers le bas_blanc.svg"
-                alt="icon de flèche blanche vers le bas" class="scroll-btn__icon"></button>
+        <a href="#first-section" class="hero__scroll-btn"><img
+                src="/assets/img/svg/icon_de_fleche_vers_le_bas_blanc.svg" alt="icon de flèche blanche vers le bas"
+                class="scroll-btn__icon"></a>
     </div>
 
-    <main class="main">
+    <main class="main" id="first-section">
         <section class="section">
             <div class="section__introduction">
                 <h2 class="section__title">Ständchen de Schubert : la sérénade qui murmure à l'âme</h2>
@@ -95,10 +96,13 @@
                     où chaque note
                     semble être un dialogue silencieux entre la musique et l'âme.
                 </p>
-                <img src="/assets/img/webp/partition_standchen.webp"
-                    alt="Partition Ständchen de Franz Schubert, extrait de la collection de lieder Schwanengesang"
-                    class="section__img">
-                <figcaption class="section__legend">Partition Ständchen de Franz Schubert</figcaption>
+            </div>
+            <div class="section__content">
+                <figure class="section__img-container">
+                    <img src="/assets/img/webp/partition_standchen.webp"
+                        alt="Partition Ständchen de Franz Schubert, extrait de la collection de lieder Schwanengesang"
+                        class="section__img">
+                    <figcaption class="section__legend">Partition Ständchen de Franz Schubert</figcaption>
                 </figure>
                 <div class="section__text-container">
                     <p class="section__text">
@@ -110,15 +114,16 @@
                             href="glossaire.html">l'introspection</a>, où la sérénade devient
                         le reflet des émotions intérieures de celui qui l'écoute.
                     </p>
-                    <p class="section__conclusion">
-                        Pour découvrir la partition complète
-                        <a
-                            href="https://www.partitions-piano.fr/images/stories/partitions/piano_classique/Schubert-Serenade-Standchen/Schubert-Serenade-Standchen.pdf">cliquez
-                            sur ce lien</a>
-                    </p>
                 </div>
+                <p class="section__conclusion">
+                    Pour découvrir la partition complète
+                    <a
+                        href="https://www.partitions-piano.fr/images/stories/partitions/piano_classique/Schubert-Serenade-Standchen/Schubert-Serenade-Standchen.pdf">cliquez
+                        sur ce lien</a>
+                </p>
+            </div>
         </section>
-        <section class="section">
+        <section class="section ">
             <div class="section__introduction">
                 <h2 class="section__title">Franz Schubert : un maître de la mélodie</h2>
                 <p class="section__chapo">
@@ -128,10 +133,11 @@
                 </p>
             </div>
             <div class="section__content">
-                <img src="/assets/img/webp/portrait_schubert.webp"
-                    alt="Portrait de Franz Schubert, homme élégant avec des petites lunettes rondes"
-                    class="section__img">
-                <figcaption class="section__legend">Image de synthèse Franz Schubert</figcaption>
+                <figure class="section__img-container">
+                    <img src="/assets/img/webp/portrait_schubert.webp"
+                        alt="Portrait de Franz Schubert, homme élégant avec des petites lunettes rondes"
+                        class="section__img">
+                    <figcaption class="section__legend">Image de synthèse Franz Schubert</figcaption>
                 </figure>
                 <div class="section__text-container">
                     <p class="section__text">
@@ -151,9 +157,9 @@
                         <a href="https://www.britannica.com/biography/Franz-Schubert">cet article</a>
                     </p>
                 </div>
+            </div>
         </section>
-        </section>
-        <section class="section">
+        <section class="section section--no-bar">
             <div class="section__introduction">
                 <h2 class="section__title">Franz Schubert : un maître de la mélodie</h2>
                 <figure class="section__video-container">
@@ -168,40 +174,43 @@
                 <figure class="section__video-container">
                     <video controls src="https://lorena-chevallot.fr/videos/schubert_trio_op.mp4"
                         class="container__video"></video>
-                    <figcaption class="section__legend">Schubert, Trio op. 100 - Andante con moto par le Trio Wanderer, 2007
+                    <figcaption class="section__legend">Schubert, Trio op. 100 - Andante con moto par le Trio Wanderer,
+                        2007
                     </figcaption>
                 </figure>
                 <div class="section__btn-play">
                     Lancer la vidéo<img class="logo__play" src="/assets/img/webp/logo_play.webp" alt="Play Icon">
                 </div>
-
+            </div>
+        </section>
 
 
 
 
     </main>
-    <!-- Section 4 : Footer -->
     <footer class="footer">
         <div class="footer__content">
             <div class="footer__logo">
                 <img src="/assets/img/svg/logo.svg" alt="Logo Clavex" class="logo__img">
                 <h3 class="logo__text">“Redécouvrez l'émotion pure à travers les touches du futur”</h3>
             </div>
-            <ul class="footer__list">
-                <p class="footer__title">Menu</p>
-                <li class="footer__item">
-                    <a href="contact.html" class="footer__link">Contact</a>
-                </li>
-                <li class="footer__item">
-                    <a href="a_propos.html" class="footer__link">À propos</a>
-                </li>
-                <li class="footer__item">
-                    <a href="glossaire.html" class="footer__link">Glossaire</a>
-                </li>
-                <li class="footer__item">
-                    <a href="autre.html" class="footer__link">Autres projets</a>
-                </li>
-            </ul>
+            <div class="footer__menu">
+                <h3 class="footer__title">Menu</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="contact.html" class="footer__link">Contact</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="a_propos.html" class="footer__link">À propos</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="glossaire.html" class="footer__link">Glossaire</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="autre.html" class="footer__link">Autres projets</a>
+                    </li>
+                </ul>
+            </div>
             <div class="footer__social-network">
                 <p class="footer__title">Réseaux sociaux</p>
                 <ul class="footer__social-list">

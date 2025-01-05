@@ -1,9 +1,11 @@
 .section {
     overflow-x: hidden;
-    padding: var(--space-4x) var(--space-2x);
     display: flex;
     flex-direction: column;
-    gap: var(--space-4x);
+    gap: var(--space-5x);
+    position: relative;
+    padding: 0 var(--space-2x);
+    padding-bottom: var(--space-5x);
 }
 
 .section__content {
@@ -164,4 +166,24 @@
     border-radius: 0;
     overflow: hidden;
     object-fit: cover;
+}
+
+.section::before {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 2px;
+    background: linear-gradient(90deg, #482CE5 0%, #C315D0 100%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section--no-bar {
+    padding-bottom: 0;
+}
+
+.section--no-bar::before {
+    display: none;
 }
