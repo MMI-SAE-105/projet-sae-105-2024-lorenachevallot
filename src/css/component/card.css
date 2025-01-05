@@ -1,0 +1,34 @@
+.section__card {
+    background-color: var(--couleurs-noir);
+    display: flex;
+    width: 100%;
+    padding: var(--space-2x);
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    border-radius: var(--space-1x);
+    color: var(--couleurs-blanc-intense);
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-1x);
+}
+
+.card__title {
+    font-family: var(--typos-typo3);
+    font-size: var(--sizes-size5);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card__text {
+    font-family: var(--typos-typo2);
+    font-size: var(--sizes-size4);
+    font-style: normal;
+    font-weight: 300;
+    line-height: 145%;
+}

@@ -1,9 +1,27 @@
 .section--timeline {
     display: flex;
     flex-direction: column;
-    gap: var(--space-6x);
+    gap: var(--space-5x);
     background-color: #0C0815;
     color: var(--couleurs-blanc);
+    position: relative;
+    padding-top: var(--space-5x);
+}
+
+.section--timeline>.section__title {
+    width: 100%;
+}
+
+.section--timeline::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 100%;
+    background: linear-gradient(45deg, #482CE5 0%, #C315D0 65.9%);
+    z-index: 5;
 }
 
 .section__timeline {
@@ -76,6 +94,7 @@
     line-height: 110%;
     margin-top: var(--space-5x);
     margin-left: var(--space-3x);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.72);
 }
 
 .timeline__title--right {
