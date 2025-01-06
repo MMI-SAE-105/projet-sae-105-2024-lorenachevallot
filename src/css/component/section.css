@@ -199,3 +199,23 @@
     gap: 0;
     align-items: flex-start;
 }
+
+/* section carrousel */
+
+.section--carrousel {
+    padding: 0;
+    padding: var(--space-2x) 0;
+    gap: var(--space-3x);
+
+}
+
+.section__carrousel-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    padding: 0 var(--space-3x);
+    gap: var(--space-4x);
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}

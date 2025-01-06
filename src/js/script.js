@@ -1,4 +1,4 @@
-
+/* menu */
 
 const toggle = document.querySelector(".header__menu-btn");
 const nav = document.querySelector(".header__menu");
@@ -13,3 +13,29 @@ if (toggle && nav) {
         page.classList.toggle("noscroll", isClosed);
     });
 }
+
+
+/* carrousel */
+
+document.addEventListener("DOMContentLoaded", () => {
+    const carrouselContainer = document.querySelector(".section__carrousel-container");
+    const btnLeft = document.querySelector(".hero__scroll-carrousel--left");
+    const btnRight = document.querySelector(".hero__scroll-carrousel--right");
+
+    const cardWidth = carrouselContainer.querySelector(".section__carrousel").offsetWidth;
+
+    btnRight.addEventListener("click", () => {
+        carrouselContainer.scrollBy({
+            left: cardWidth,
+            behavior: "smooth",
+        });
+    });
+
+    btnLeft.addEventListener("click", () => {
+        carrouselContainer.scrollBy({
+            left: -cardWidth,
+            behavior: "smooth",
+        });
+    });
+});
+

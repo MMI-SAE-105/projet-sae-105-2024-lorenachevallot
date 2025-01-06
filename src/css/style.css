@@ -16,9 +16,9 @@
 /*Components*/
 @import "component/button.css";
 @import "component/menu.css";
-@import "component/carroussel.css";
 @import "component/section.css";
 @import "component/timeline.css";
 @import "component/card.css";
 @import "component/form.css";
 @import "component/glossary.css";
+@import "component/carrousel.css";
