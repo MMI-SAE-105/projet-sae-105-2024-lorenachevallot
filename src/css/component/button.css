@@ -13,6 +13,7 @@
     background-color: var(--couleurs-gris);
     position: relative;
     z-index: 15;
+    
 }
 
 .switcher__sphere {
