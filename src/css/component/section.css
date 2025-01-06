@@ -187,3 +187,15 @@
 .section--no-bar::before {
     display: none;
 }
+
+.section--othersprojects {
+    padding: 0 0;
+    gap: 0;
+}
+
+.section__content--othersprojects {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-start;
+}

@@ -22,3 +22,8 @@ main {
     scroll-margin-top: var(--space-5x);
     gap: var(--space-5x);
 }
+
+.main--othersprojects {
+    background-color: var(--couleurs-noir-bleute);
+    padding: var(--space-6x) 0;
+}

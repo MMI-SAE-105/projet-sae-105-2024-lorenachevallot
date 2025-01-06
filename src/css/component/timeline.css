@@ -104,7 +104,7 @@
 }
 
 .timeline__date {
-    font-family: var(--typo-typo4);
+    font-family: var(--typos-typo2);
     font-size: var(--sizes-size3);
     font-style: normal;
     font-weight: 300;
