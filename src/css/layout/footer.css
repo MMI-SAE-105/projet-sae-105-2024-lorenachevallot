@@ -78,7 +78,7 @@
 }
 
 .footer__link:hover {
-    color: #f0a500;
+    color: #482ce5;
 }
 
 .footer__social-list {
@@ -122,6 +122,7 @@
     padding: 8px;
     border: 1.5px solid;
     border-image: linear-gradient(45deg, #482ce5, #c315d0) 1;
+    color: var(--Couleurs-Blanc-intense);
     background: none;
     max-width: 70%;
 }
