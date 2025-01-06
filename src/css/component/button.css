@@ -10,10 +10,11 @@
     width: 50px;
     height: 25px;
     border-radius: var(--radius-3x);
-    background-color: var(--couleurs-gris);
     position: relative;
     z-index: 15;
-    
+    background: var(--couleurs-blanc-intense);
+    box-shadow: 0px 0px 7px 5px rgba(255, 255, 255, 0.25);
+
 }
 
 .switcher__sphere {
