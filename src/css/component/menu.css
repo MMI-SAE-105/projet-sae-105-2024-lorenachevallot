@@ -91,10 +91,11 @@
     text-decoration: none;
     color: #FFF;
 
-    font-family: var(--typos-typo3);
-    font-size: var(--sizes-size4);
+    font-family: var(--typos-typo2);
+    font-size: var(--sizes-size3);
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     text-transform: uppercase;
+    
 }
