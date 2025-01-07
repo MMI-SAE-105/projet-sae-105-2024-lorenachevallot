@@ -33,8 +33,11 @@
 }
 
 .switcher__sphere--active {
-    left: 75%;
     background: url("/assets/img/avif/drapeau_anglais.avif");
+    background-size: cover;
+    position: absolute;
+    left: 75%;
+
 }
 
 /* card button*/
