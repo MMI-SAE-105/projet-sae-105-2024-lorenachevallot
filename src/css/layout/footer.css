@@ -171,13 +171,19 @@
 
 .footer__text.uppercase {
     text-transform: uppercase;
-    color: var(--Couleurs-Blanc-intense, #FFF);
+    color: var(--Couleurs-Blanc-intense);
     font-family: var(--typos-typo2);
     font-size: 10px;
     font-style: normal;
     font-weight: 275;
     line-height: 150%;
 }
+
+.footer__text.uppercase a {
+    color: var(--Couleurs-Blanc-intense);
+    
+}
+
 
 .footer--black {
     background-color: #0C0815;
