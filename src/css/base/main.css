@@ -27,3 +27,24 @@ main {
     background-color: var(--couleurs-noir-bleute);
     padding: var(--space-5x) 0;
 }
+
+@keyframes hero-animation {
+    0% {
+        transform: translateY(-20%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes hero-animation-text {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+

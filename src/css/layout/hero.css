@@ -20,7 +20,9 @@
     width: 90%;
     text-align: start;
     font-family: var(--typos-typo4);
-    text-shadow: 0px 0px 2px #FFF;
+    text-shadow: 0px 0px 2px var(--couleurs-blanc-intense);
+    animation: hero-animation-text 1s;
+    
 }
 
 .hero__subtitle {
@@ -31,6 +33,7 @@
     text-align: start;
     font-family: var(--typos-typo2);
     font-weight: 300;
+    animation: hero-animation-text 1s;
 }
 
 .hero__background {
@@ -59,6 +62,7 @@
     stroke-width: 1px;
     stroke: #FFF;
     filter: drop-shadow(0px 0px 9.1px #FFF);
+    animation: hero-animation 1s ;
 
 }
 
