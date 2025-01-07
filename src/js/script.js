@@ -39,3 +39,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const playButtons = document.querySelectorAll(".section__btn-play");
+
+    playButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+            // Trouver la vidéo associée
+            const video = button.previousElementSibling.querySelector("video");
+
+            if (video) {
+                if (video.paused) {
+                    video.play();
+                    button.setAttribute("data-state", "playing"); // Attribut pour indiquer l'état
+                } else {
+                    video.pause();
+                    button.setAttribute("data-state", "paused"); // Attribut pour indiquer l'état
+                }
+            }
+        });
+    });
+});
+
+
