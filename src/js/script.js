@@ -50,10 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
             if (video) {
                 if (video.paused) {
                     video.play();
-                    button.setAttribute("data-state", "playing"); // Attribut pour indiquer l'état
+                    button.innerHTML = 'Arrêter la vidéo <img class="logo__play" src="/assets/img/webp/logo_play.webp" alt="Play Icon">' // Attribut pour indiquer l'état
                 } else {
                     video.pause();
-                    button.setAttribute("data-state", "paused"); // Attribut pour indiquer l'état
+                    button.innerHTML = 'Lancer la vidéo <img class="logo__play" src="/assets/img/webp/logo_play.webp" alt="Play Icon">' // Attribut pour indiquer l'état
                 }
             }
         });

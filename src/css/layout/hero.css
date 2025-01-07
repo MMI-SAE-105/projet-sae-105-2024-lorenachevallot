@@ -20,6 +20,7 @@
     width: 90%;
     text-align: start;
     font-family: var(--typos-typo4);
+    text-shadow: 0px 0px 2px #FFF;
 }
 
 .hero__subtitle {

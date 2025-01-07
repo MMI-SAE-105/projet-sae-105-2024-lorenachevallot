@@ -186,5 +186,9 @@
 
 
 .footer--black {
-    background-color: #0C0815;
+    background-color: var(--couleurs-noir-bleute);
+}
+
+.footer--no-padding {
+    padding: 0;
 }

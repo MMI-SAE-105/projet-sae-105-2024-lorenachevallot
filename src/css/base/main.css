@@ -25,5 +25,5 @@ main {
 
 .main--othersprojects {
     background-color: var(--couleurs-noir-bleute);
-    padding: var(--space-6x) 0;
+    padding: var(--space-5x) 0;
 }

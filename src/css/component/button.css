@@ -64,6 +64,7 @@
     font-family: var(--typos-typo3);
     font-size: var(--sizes-size2);
     border-radius: 8px;
+    border-color: var(--couleurs-noir);
     background: linear-gradient(45deg, rgba(72, 44, 229, 0.92) -13.28%, rgba(195, 21, 208, 0.92) 100%);
     display: flex;
     padding: 2px 21px;

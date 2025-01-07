@@ -85,7 +85,7 @@
 .section__img {
     width: 100%;
     height: auto;
-    max-height: 30dvh;
+    max-height: 50dvh;
     object-fit: contain;
     border-radius: var(--radius-1x);
 }
