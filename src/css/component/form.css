@@ -25,7 +25,7 @@
     gap: 10px;
     flex-shrink: 0;
     border: 2px solid #482CE5;
-    border-radius: var(--radius-1x);
+    border-radius: var(--radius-2x);
 }
 
 .form__input:focus {
