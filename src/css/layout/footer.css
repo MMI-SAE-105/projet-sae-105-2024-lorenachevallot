@@ -87,7 +87,7 @@
     padding: 0;
     margin: 0;
     align-items: center;
-    gap: var(--space-2x);
+    gap: var(--space-3x);
 }
 
 .social-list__item {
@@ -96,9 +96,10 @@
 }
 
 .social-link__img {
-    width: 125%;
-    height: 125%;
+    width: 130%;
+    height: 130%;
     object-fit: cover;
+
 }
 
 .menu__social-link {
