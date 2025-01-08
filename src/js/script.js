@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const playButtons = document.querySelectorAll(".section__btn-play");
+    const playButtons = document.querySelectorAll(".section__btn-play--fr");
 
     playButtons.forEach((button) => {
         button.addEventListener("click", () => {
@@ -54,6 +54,28 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
                     video.pause();
                     button.innerHTML = 'Lancer la vidéo <img class="logo__play" src="/assets/img/webp/logo_play.webp" alt="Play Icon">' // Attribut pour indiquer l'état
+                }
+            }
+        });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const playButtonsEn = document.querySelectorAll(".section__btn-play--en");
+
+    playButtonsEn.forEach((buttonEn) => {
+        buttonEn.addEventListener("click", () => {
+            // Trouver la vidéo associée
+            const video = buttonEn.previousElementSibling.querySelector("video");
+
+            if (video) {
+                if (video.paused) {
+                    video.play();
+                    buttonEn.innerHTML = 'Pause Video <img class="logo__play" src="/assets/img/webp/logo_play.webp" alt="Play Icon">' // Attribut pour indiquer l'état
+                } else {
+                    video.pause();
+                    buttonEn.innerHTML = 'Play Video <img class="logo__play" src="/assets/img/webp/logo_play.webp" alt="Play Icon">' // Attribut pour indiquer l'état
                 }
             }
         });
