@@ -58,3 +58,27 @@ main {
     }
 }
 
+
+/* 404 */
+
+.main--error {
+    background-color: var(--couleurs-noir-bleute);
+    padding: 0;
+}
+
+.error {
+    width: 100dvw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--space-1x);
+    font-family: var(--typos-typo2);
+    color: var(--couleurs-blanc-intense);
+    font-size: var(--sizes-size-6);
+}
+
+.error a {
+    color: var(--couleurs-blanc-intense);
+}
