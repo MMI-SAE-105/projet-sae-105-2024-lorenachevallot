@@ -105,7 +105,7 @@
 }
 
 .hero__scroll-carrousel--right {
-    border: 0px solid var(--couleurs-blanc-intense);
+    border: 0px solid    var(--couleurs-blanc-intense);
     background: var(--couleurs-noir-bleute);
     box-shadow: 0px 0px 7.8px 2px #C315D0;
     width: 85px;
